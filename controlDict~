@@ -1,0 +1,24 @@
+delta_T 0.001
+delta_x 0.01
+domain_len 1
+time_nodes 3000
+wave_speed 0.5
+write_interval 200
+ddt_scheme rk4
+ddx_scheme upw
+
+/******************************
+delta_T: Value of time spacing (meter)
+delta_x: Value of grid spacing (meter)
+domain_len: Length of Domain	(meter)
+time_nodes: Number of nodes
+wave_speed: speed of the wave (meter/second)
+write_interval: nodes to be written in file
+ddt_scheme: 
+	rk2-> Range Kutta Scheme order 2
+	rk3-> Range Kutta Scheme order 2
+	rk4-> Range Kutta Scheme order 2
+
+ddx_scheme: upw->upwind scheme
+	    ctd->central difference
+********************************/
